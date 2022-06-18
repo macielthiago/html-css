@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body
+{
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1
+{
+    color: black;
+    background-color: goldenrod;
+}
+h2
+{
+    color: chocolate;
+}
+p
+{
+    text-align: justify;
+}
