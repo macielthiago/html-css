@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'gotico';
+            src: url('fontes/CloisterBlack.ttf') format('truetype');
+        }
+
+            /*
+                Tipos de format();
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1
+        {
+            font-family: 'gotico', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At necessitatibus cum, eveniet tempora temporibus ea impedit iusto non, incidunt adipisci doloremque ipsa aperiam, velit fugiat nostrum? Quibusdam nostrum maxime tempora! <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, voluptas deleniti! Expedita, earum! Cum quibusdam delectus animi, iure ad tempore fuga natus qui suscipit sapiente alias dolores, exercitationem culpa dignissimos?</p>
+</body>
+</html>
